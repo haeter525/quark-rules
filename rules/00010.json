@@ -4,8 +4,7 @@
     "api": [
         {
             "class": "Landroid/content/ContentResolver;",
-            "method": "query",
-            "descriptor": "(Landroid/net/Uri; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;"
+            "method": "query"
         },
         {
             "class": "Lorg/json/JSONObject;",
