@@ -47,4 +47,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           git clone git@github.com:quark-engine/apk-malware-samples.git
-          quark -a apk-malware-samples/14d9f1a92dd984d6040cc41ed06e273e.apk -r . -s
+          quark -a apk-malware-samples/14d9f1a92dd984d6040cc41ed06e273e.apk -r $GITHUB_WORKSPACE -s
