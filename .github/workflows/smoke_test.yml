@@ -39,7 +39,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           pip3 install click==8.0.1
-          git clone https://github.com/quark-engine/quark-engine.git -o /tmp
+          git clone https://github.com/quark-engine/quark-engine.git /tmp/quark-engine
           cd /tmp/quark-engine && pip3 install .
 
 
